@@ -5,7 +5,7 @@ public class OrderService {
 
     private List<Order> orderList = new ArrayList<>();
 
-    public Order placeOrder(List<MenuItem> selectedItems) throws FoodDeliveryException {
+    public Order placeOrder(List<MenuItem> selectedItems) throws FoodDeliveryException { 
         if (selectedItems == null || selectedItems.isEmpty()) {
             throw new FoodDeliveryException("Your cart is empty. Please add items first."); 
         } 
