@@ -11,7 +11,7 @@ public class MenuService {
         System.out.println("  Added \"" + name + "\" to the menu.");
     }
  
-    public void removeItem(int id) throws FoodDeliveryException {
+    public void removeItem(int id) throws FoodDeliveryException { 
         MenuItem toRemove = null;
 
         for (MenuItem m : menuList) {
