@@ -12,7 +12,7 @@ public class Order {
 
     private int orderId;
     private List<MenuItem> items;
-    private double total;
+    private double total; 
     private Status status;
 
     public Order(List<MenuItem> items) {
