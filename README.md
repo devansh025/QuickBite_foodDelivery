@@ -1,4 +1,4 @@
-# QuickBite Lite 🍕
+# QuickBite Lite 
 
 A simple food delivery system built in Java. Manage menu items and orders all from your console.
 
@@ -166,4 +166,4 @@ Code is intentionally simple and human-readable, not production-grade. No fancy 
 
 ---
 
-**Made with ☕ and 🍕**
+**Made with Devansh Rathore**
