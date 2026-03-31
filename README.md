@@ -4,10 +4,10 @@ A simple food delivery system built in Java. Manage menu items and orders all fr
 
 ## What It Does
 
-- **View & manage a menu** — add, remove, or search for food items
-- **Place orders** — pick items from the menu and see your total
-- **Track orders** — see the status of your orders anytime
-- **Update status** — mark orders as preparing, out for delivery, or delivered
+- **View & manage a menu** - add, remove, or search for food items
+- **Place orders** - pick items from the menu and see your total
+- **Track orders** - see the status of your orders anytime
+- **Update status** - mark orders as preparing, out for delivery, or delivered
 
 No database, no file system, no login. Just a clean console app that works instantly.
 
