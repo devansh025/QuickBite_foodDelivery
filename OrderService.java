@@ -8,7 +8,7 @@ public class OrderService {
     public Order placeOrder(List<MenuItem> selectedItems) throws FoodDeliveryException {
         if (selectedItems == null || selectedItems.isEmpty()) {
             throw new FoodDeliveryException("Your cart is empty. Please add items first.");
-        }
+        } 
 
         Order newOrder = new Order(selectedItems);
         orderList.add(newOrder);
