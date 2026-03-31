@@ -6,7 +6,7 @@ public class MenuItem {
     private int itemId;
     private String name;
     private String category;
-    private double price;
+    private double price; 
 
     public MenuItem(String name, String category, double price) {
         this.itemId = idCounter++;
