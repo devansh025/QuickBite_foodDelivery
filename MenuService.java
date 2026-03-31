@@ -8,7 +8,7 @@ public class MenuService {
     public void addItem(String name, String category, double price) {
         MenuItem item = new MenuItem(name, category, price);
         menuList.add(item); 
-        System.out.println("  Added \"" + name + "\" to the menu.");
+        System.out.println("  Added \"" + name + "\" to the menu."); 
     }
  
     public void removeItem(int id) throws FoodDeliveryException { 
