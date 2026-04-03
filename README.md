@@ -41,32 +41,32 @@ QuickBiteLite/
 │   ├── MenuService.java           (menu operations)
 │   ├── OrderService.java          (order operations)
 │   └── Main.java                  (console interface)
-└── out/                           (compiled files — auto-created)
+└── out/                           (compiled files auto-created)
 ```
 
 ## Files Explained
 
-**MenuItem.java** — Represents a food item
+**MenuItem.java** Represents a food item
 - id, name, category, price
 - Simple getters and toString
 
-**Order.java** — Represents a customer order
+**Order.java** Represents a customer order
 - id, list of items, total price, status (enum)
 - Status can be: PENDING, PREPARING, OUT_FOR_DELIVERY, DELIVERED
 - Calculates total automatically when items are added
 
-**FoodDeliveryException.java** — Custom exception
+**FoodDeliveryException.java** Custom exception
 - Thrown when something goes wrong (invalid item, order not found, etc.)
 
-**MenuService.java** — Handles all menu operations
+**MenuService.java** Handles all menu operations
 - addItem(), removeItem(), viewMenu(), searchItem()
 - Keeps items in an ArrayList
 
-**OrderService.java** — Handles all order operations
+**OrderService.java** Handles all order operations
 - placeOrder(), getOrder(), updateStatus(), viewAllOrders()
 - Keeps orders in an ArrayList with auto-incrementing IDs
 
-**Main.java** — The console interface
+**Main.java** The console interface
 - Displays a menu with 9 options
 - Takes user input and calls the right service method
 
@@ -103,12 +103,12 @@ When you launch the app, you'll see:
 
 ## Java Concepts Covered
 
-- **OOP** — Classes, objects, encapsulation
-- **Collections** — ArrayList for items and orders
-- **Enums** — Order.Status (PENDING, PREPARING, OUT_FOR_DELIVERY, DELIVERED)
-- **Custom Exceptions** — FoodDeliveryException for error handling
-- **Exception Handling** — try/catch blocks throughout
-- **File I/O** — (not included in lite version, but structure supports it)
+- **OOP** Classes, objects, encapsulation
+- **Collections** ArrayList for items and orders
+- **Enums** Order.Status (PENDING, PREPARING, OUT_FOR_DELIVERY, DELIVERED)
+- **Custom Exceptions** FoodDeliveryException for error handling
+- **Exception Handling** try/catch blocks throughout
+- **File I/O** (not included in lite version, but structure supports it)
 
 ## Default Menu
 
@@ -156,13 +156,13 @@ Want to extend it? Try:
 
 ## Notes
 
-This is a learning project — great for understanding:
+This is a learning project great for understanding:
 - How OOP structures a real app
 - Collections and data management
 - Exception handling in practice
 - Console-based user interfaces
 
-Code is intentionally simple and human-readable, not production-grade. No fancy patterns or frameworks — just straightforward Java.
+Code is intentionally simple and human-readable, not production-grade. No fancy patterns or frameworks just straightforward Java.
 
 ---
 
