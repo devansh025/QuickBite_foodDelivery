@@ -1,4 +1,4 @@
-# QuickBite Lite 
+# Food Delivery 
 
 A simple food delivery system built in Java. Manage menu items and orders all from your console.
 
@@ -75,7 +75,7 @@ QuickBiteLite/
 When you launch the app, you'll see:
 
 ```
-=========== QuickBite Lite ===========
+=========== Food Delivery ===========
 1. View Full Menu
 2. Search Menu Item
 3. Add New Item to Menu
